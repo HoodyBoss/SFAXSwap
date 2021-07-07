@@ -2,13 +2,15 @@
 
 ## SFAXSwap Factory and LP-Pair Deployment To TestNet
 
+```
 Starting migrations...
 ======================
 > Network name:    'binanceTestNet'
 > Network id:      97
 > Block gas limit: 30000000 (0x1c9c380)
+```
 
-
+```
 1_initial_migration.js
 ======================
 
@@ -31,8 +33,9 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:          0.00164175 ETH
+```
 
-
+```
 2_deploy_contracts.js
 =====================
 
@@ -55,12 +58,14 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:          0.04177544 ETH
+```
 
-
+```
 Summary
 =======
 > Total deployments:   2
 > Final cost:          0.04341719 ETH
+```
 
 ===============================================================================================================
 ===============================================================================================================
@@ -68,13 +73,15 @@ Summary
 
 ## SFAXSwap Router Deployment To TestNet
 
+```
 Starting migrations...
 ======================
 > Network name:    'binanceTestNet'
 > Network id:      97
 > Block gas limit: 30000000 (0x1c9c380)
+```
 
-
+```
 1_initial_migration.js
 ======================
 
@@ -97,8 +104,9 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:          0.00258372 ETH
+```
 
-
+```
 2_deploy_router.js
 ==================
 
@@ -115,8 +123,9 @@ Starting migrations...
    > gas price:           20 gwei
    > value sent:          0 ETH
    > total cost:          0.0187438 ETH
+```
 
-
+```
    Deploying 'SFAXSwapRouter'
    --------------------------
    > transaction hash:    0xd07010b3a6c9e35b613177d06701becf896939df72bbfd1c84fdc48c16b9b970
@@ -136,13 +145,100 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:          0.09702704 ETH
+```
 
-
+```
 Summary
 =======
 > Total deployments:   3
 > Final cost:          0.09961076 ETH
+```
 
+
+=============================================================================================================
+=============================================================================================================
+
+## SAFEMOONmaxTEST Token Deployment To TestNet
+
+```
+Starting migrations...
+======================
+> Network name:    'binanceTestNet'
+> Network id:      97
+> Block gas limit: 29882814 (0x1c7f9be)
+```
+
+```
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0xb6bcec01225dc498ed941075d471a92578e593d0e8f42f4047f75ff132b383f6
+   > Blocks: 1            Seconds: 5
+   > contract address:    0x8151E409526671DA1A0260Bd3EE5C7940380574E
+   > block number:        10391367
+   > block timestamp:     1625682907
+   > account:             0xA9837B402F7Ae9ec391EE260c965F1D7c7824865
+   > balance:             0.80726331
+   > gas used:            129186 (0x1f8a2)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00258372 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00258372 ETH
+```
+
+```
+2_deploy_contracts.js
+=====================
+
+   Deploying 'SAFEMOONmaxTEST'
+   ---------------------------
+   > transaction hash:    0xd51ef9ff3ce0a83d0c0a862eb98f1bd0de9477288ee131e1f7d8b14ff19013aa
+   > Blocks: 1            Seconds: 5
+   > contract address:    0x35beCCaD7A3186F85E582E8f5DbF813FAD9fC6E9
+   > block number:        10391374
+   > block timestamp:     1625682928
+   > account:             0xA9837B402F7Ae9ec391EE260c965F1D7c7824865
+   > balance:             0.71264221
+   > gas used:            4688789 (0x478b95)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.09377578 ETH
+
+
+   Deploying 'TokenReceiver'
+   -------------------------
+   > transaction hash:    0x29fdcd5591a051b43ffb7b3b6e78a42a879350b860c652fa7a5f1c8b7efa7c01
+   > Blocks: 3            Seconds: 9
+   > contract address:    0x29286bC7A98BE540995BD3B5963Eea0eD4758dd1
+   > block number:        10391379
+   > block timestamp:     1625682943
+   > account:             0xA9837B402F7Ae9ec391EE260c965F1D7c7824865
+   > balance:             0.71130089
+   > gas used:            67066 (0x105fa)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00134132 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0951171 ETH
+```
+
+```
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.09770082 ETH
+```
 
 #### NOTES
 
