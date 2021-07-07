@@ -79,9 +79,7 @@ Starting migrations...
 > Network name:    'binanceTestNet'
 > Network id:      97
 > Block gas limit: 30000000 (0x1c9c380)
-```
 
-```
 1_initial_migration.js
 ======================
 
@@ -104,9 +102,7 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:          0.00258372 ETH
-```
 
-```
 2_deploy_router.js
 ==================
 
@@ -123,9 +119,7 @@ Starting migrations...
    > gas price:           20 gwei
    > value sent:          0 ETH
    > total cost:          0.0187438 ETH
-```
 
-```
    Deploying 'SFAXSwapRouter'
    --------------------------
    > transaction hash:    0xd07010b3a6c9e35b613177d06701becf896939df72bbfd1c84fdc48c16b9b970
@@ -145,9 +139,7 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:          0.09702704 ETH
-```
 
-```
 Summary
 =======
 > Total deployments:   3
@@ -166,9 +158,7 @@ Starting migrations...
 > Network name:    'binanceTestNet'
 > Network id:      97
 > Block gas limit: 29882814 (0x1c7f9be)
-```
 
-```
 1_initial_migration.js
 ======================
 
@@ -191,9 +181,7 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:          0.00258372 ETH
-```
 
-```
 2_deploy_contracts.js
 =====================
 
@@ -210,7 +198,6 @@ Starting migrations...
    > gas price:           20 gwei
    > value sent:          0 ETH
    > total cost:          0.09377578 ETH
-
 
    Deploying 'TokenReceiver'
    -------------------------
@@ -231,9 +218,7 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:           0.0951171 ETH
-```
 
-```
 Summary
 =======
 > Total deployments:   3
