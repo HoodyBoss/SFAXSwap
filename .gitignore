@@ -1,5 +1,7 @@
-SFAX-swap-core/truffle-config.js
-pancake-swap-core-master/
 pancake-swap-lib-master/
 pancake-swap-periphery-master/
-SFAX-swap-core/node_modules/
+SFAXSwapCore/truffle-config.js
+SFAXSwapCore/node_modules/
+SFAXSwapPeriphery/truffle-config.js
+SFAXSwapPeriphery/node_modules/
+.vscode/
