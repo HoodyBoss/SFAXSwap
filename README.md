@@ -8,9 +8,7 @@ Starting migrations...
 > Network name:    'binanceTestNet'
 > Network id:      97
 > Block gas limit: 30000000 (0x1c9c380)
-```
 
-```
 1_initial_migration.js
 ======================
 
@@ -33,9 +31,7 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:          0.00164175 ETH
-```
 
-```
 2_deploy_contracts.js
 =====================
 
@@ -58,9 +54,7 @@ Starting migrations...
    > Saving artifacts
    -------------------------------------
    > Total cost:          0.04177544 ETH
-```
 
-```
 Summary
 =======
 > Total deployments:   2
