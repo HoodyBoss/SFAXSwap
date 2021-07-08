@@ -77,15 +77,15 @@ Starting migrations...
 1_initial_migration.js
 ======================
 
-   Replacing 'Migrations'
+   Deploying 'Migrations'
    ----------------------
-   > transaction hash:    0xf0cd46be6a430c309696022cdfbd5f4c08ebbefb15819c9395a5e5b321d9820b
-   > Blocks: 3            Seconds: 8
-   > contract address:    0x54692E0E020189895007C0b39921CdAC388B2cD0
-   > block number:        10374485
-   > block timestamp:     1625632261
+   > transaction hash:    0xa975a642d23998088e18a9b6e4be3a881fe1f92d403aaea761b9c1bc2b629978
+   > Blocks: 2            Seconds: 9
+   > contract address:    0x10c8A3097d26a8D1f8D27Fe722128f3FC4AbcC4f
+   > block number:        10398998
+   > block timestamp:     1625706928
    > account:             0xA9837B402F7Ae9ec391EE260c965F1D7c7824865
-   > balance:             0.92563523
+   > balance:             0.70626733
    > gas used:            129186 (0x1f8a2)
    > gas price:           20 gwei
    > value sent:          0 ETH
@@ -102,13 +102,13 @@ Starting migrations...
 
    Deploying 'WBNB'
    ----------------
-   > transaction hash:    0x4f458359eb9f918fc74054126e5385c55a82d4c9e2763271a4771bb893a38ead
-   > Blocks: 1            Seconds: 4
-   > contract address:    0x8C818908B5aB661e37b0906Aa65F70Cc6b3993F3
-   > block number:        10374493
-   > block timestamp:     1625632285
+   > transaction hash:    0x6766a50ccad29517eb8b1f2ae9fd4823921b6589a33ebd7b8a0035c626fd469c
+   > Blocks: 2            Seconds: 9
+   > contract address:    0xb183EcaDF4D1b61DdFec3a973E7247B747DCc79b
+   > block number:        10399004
+   > block timestamp:     1625706954
    > account:             0xA9837B402F7Ae9ec391EE260c965F1D7c7824865
-   > balance:             0.90604611
+   > balance:             1.68667821
    > gas used:            937190 (0xe4ce6)
    > gas price:           20 gwei
    > value sent:          0 ETH
@@ -116,13 +116,13 @@ Starting migrations...
 
    Deploying 'SFAXSwapRouter'
    --------------------------
-   > transaction hash:    0xd07010b3a6c9e35b613177d06701becf896939df72bbfd1c84fdc48c16b9b970
+   > transaction hash:    0x076ce63bdf5e06c837056d639723ce2522bf2226ddd379cf9abd22d8d71419b5
    > Blocks: 1            Seconds: 4
-   > contract address:    0x92Fb47b9C825A391c9BD3ae7A2AE4D5b9Fc38d65
-   > block number:        10374497
-   > block timestamp:     1625632297
+   > contract address:    0xE1DCA03c139B725b384D9818366d4256B58BccA7
+   > block number:        10399007
+   > block timestamp:     1625706967
    > account:             0xA9837B402F7Ae9ec391EE260c965F1D7c7824865
-   > balance:             0.82776287
+   > balance:             1.60839497
    > gas used:            3914162 (0x3bb9b2)
    > gas price:           20 gwei
    > value sent:          0 ETH
@@ -218,6 +218,12 @@ Summary
 > Total deployments:   3
 > Final cost:          0.09770082 ETH
 ```
+
+=============================================================================================================
+=============================================================================================================
+
+## BYTECODE SwapPair Contract INIT_HASH For pairFor Method
+01c2d3771be8c971c6412f88360e49a46ac89d5c1c7b5b6eb0be84caf1d0b677
 
 #### NOTES
 
