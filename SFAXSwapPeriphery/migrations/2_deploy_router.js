@@ -3,7 +3,7 @@ const WBNB = artifacts.require('WBNB.sol');
 
 module.exports = async function (deployer, _network, addresses) {
     let wbnb;
-    const FACTORY_ADDRESS = '0x6C283dF7379bE4D3C72e60B92c02a52b4AB24346';
+    const FACTORY_ADDRESS = '0xF1Cc7a06947734EfBfbDfe42C3F5Fdac396790f0';
 
     if(_network === 'mainnet') {
         weth = await WBNB.at('wbnbaddress');

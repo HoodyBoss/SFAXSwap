@@ -1,8 +1,15 @@
+
 pancake-swap-lib-master/
+
 SFAXSwapCore/truffle-config.js
 SFAXSwapCore/node_modules/
+
 SFAXSwapPeriphery/truffle-config.js
 SFAXSwapPeriphery/node_modules/
+
 SFAXTestToken/truffle-config.js
 SFAXTestToken/node_modules/
+
 .vscode/
+
+pancake-swap-interface-v1-master/
