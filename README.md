@@ -248,8 +248,7 @@ feeToSetter
 ## SFAXSwap ROUTER Deployment To MainNet
 
 ```
-router address 0x1D08A836287B07F40faB6606B6593ad7B5808295
-transaction hash 	0xd9b0c737af162661cb3b3d1f5aac3abfc6feeb23d710f2f9be47b8762f41cca1
+Router address 0x7530B119057232fDeC96E56565Ea46cf6c5A8e5a
 factory
 0:
 address: 0x73C81aFbb6F18F70e2fA43Ec5F9676A3fAF058BE
