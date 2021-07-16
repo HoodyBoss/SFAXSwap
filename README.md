@@ -231,9 +231,9 @@ Summary
 ## SFAXSwap Factory and LP-Pair Deployment To MainNet
 
 ```
-factory address 0x73c81afbb6f18f70e2fa43ec5f9676a3faf058be
-0x6e9acc9c655a25892bdedfd4c89084164d9d034e9d0d24b17b8f8de0220a9766 // INIT_CODE_HASH 
-transaction hash 	0x04cdfdc310c133243b632b94117942bf746d728e3f3658cfbb6b303babc40510
+factory address 0x5b64dEbd0dfD558F05aCB4338199C6f65Da7b475
+0xfdab2c25b771b2082cfdfbea15c0fcb389dbbaf47d74ea79b9c738635ad484a7 // INIT_CODE_HASH 
+transaction hash 	0x3f7b75b48da730d67ddafcb87da25a1698fcbe589519420c0b7e3d8f3f2e6e4e
 feeTo
 0: address: 0xA9837B402F7Ae9ec391EE260c965F1D7c7824865
 
@@ -248,10 +248,10 @@ feeToSetter
 ## SFAXSwap ROUTER Deployment To MainNet
 
 ```
-Router address 0x7530B119057232fDeC96E56565Ea46cf6c5A8e5a
+Router address 0x92B331Dbc2c12B3E1332Ad7c2BDA264F755a385e
 factory
 0:
-address: 0x73C81aFbb6F18F70e2fA43Ec5F9676A3fAF058BE
+address: 0x5b64dEbd0dfD558F05aCB4338199C6f65Da7b475
 
 WBNB/WETH
 0:
